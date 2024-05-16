@@ -1,0 +1,41 @@
+.container{
+    border: 1px solid blue;
+    padding: 25px 25px;
+    border-radius: 7px;
+    margin: 20px;
+}
+input {
+    border-radius: 7px;
+    height: 35px;
+    width: 50%;
+}
+.form{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, blue, darkorchid) 1;
+    
+}
+.form label{
+    font-size: 20px;
+}
+.date label{
+    color: blueviolet;
+}
+.author {
+    color: gold
+}
+select{
+    width: 50%;
+}
+.btn{
+    background: linear-gradient(to right, blue, darkorchid) !important;
+    color: white;
+    width: 170px;
+    
+    
+}
